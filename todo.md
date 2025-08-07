@@ -19,9 +19,9 @@
 - [x] Link-Funktionalität testen
 
 ## Phase 4: GitHub Repository erstellen und Deployment-Anweisungen
-- [ ] Git Repository initialisieren
-- [ ] README.md mit Deployment-Anweisungen erstellen
-- [ ] Dateien für GitHub vorbereiten
+- [x] Git Repository initialisieren
+- [x] README.md mit Deployment-Anweisungen erstellen
+- [x] Dateien für GitHub vorbereiten
 
 ## Phase 5: Ergebnisse an Benutzer liefern
 - [ ] Finale Dateien bereitstellen
