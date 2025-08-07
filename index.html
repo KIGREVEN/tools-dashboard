@@ -27,32 +27,15 @@
         }
 
         .logo-container {
-            background-color: #b91c1c;
-            padding: 10px 15px;
-            border-radius: 4px;
             display: flex;
             align-items: center;
-            gap: 8px;
+            height: 60px;
         }
 
-        .logo-text {
-            color: white;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.2;
-        }
-
-        .logo-icon {
-            width: 24px;
-            height: 24px;
-            background-color: white;
-            border-radius: 2px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            color: #dc2626;
-            font-size: 12px;
+        .logo-container img {
+            height: 50px;
+            width: auto;
+            object-fit: contain;
         }
 
         .main-content {
@@ -137,6 +120,10 @@
             .card-title {
                 font-size: 22px;
             }
+            
+            .logo-container img {
+                height: 40px;
+            }
         }
 
         @media (max-width: 480px) {
@@ -147,18 +134,17 @@
             .tool-card {
                 max-width: 100%;
             }
+            
+            .logo-container img {
+                height: 35px;
+            }
         }
     </style>
 </head>
 <body>
     <header class="header">
         <div class="logo-container">
-            <div class="logo-icon">🏢</div>
-            <div class="logo-text">
-                Köln<br>
-                Branchen<br>
-                Guide
-            </div>
+            <img src="images/KoelnBG_Logo_rgb.png" alt="Köln Branchen Guide Logo">
         </div>
     </header>
 
