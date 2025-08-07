@@ -87,17 +87,16 @@
         }
 
         .card-image {
-            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
             height: 200px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 16px;
-            font-weight: 500;
-            text-align: center;
-            padding: 20px;
-            line-height: 1.4;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
         }
 
         .card-content {
@@ -167,10 +166,7 @@
         <div class="tools-grid">
             <a href="http://content-generator.greven.de:5000/" class="tool-card" target="_blank">
                 <div class="card-image">
-                    Screenshot vom Tool inkl.<br>
-                    Verlinkung des Bildes und<br>
-                    der Text verlinkt auch zur<br>
-                    Anwendung
+                    <img src="images/content-generator.png" alt="Content Generator Screenshot">
                 </div>
                 <div class="card-content">
                     <h2 class="card-title">Content Generator</h2>
@@ -182,10 +178,7 @@
 
             <a href="http://217.110.253.198:3000/" class="tool-card" target="_blank">
                 <div class="card-image">
-                    Screenshot vom Tool inkl.<br>
-                    Verlinkung des Bildes und<br>
-                    der Text verlinkt auch zur<br>
-                    Anwendung
+                    <img src="images/teaser-buchung.png" alt="Teaser Verwaltung Screenshot">
                 </div>
                 <div class="card-content">
                     <h2 class="card-title">Teaser Verwaltung</h2>
@@ -197,10 +190,7 @@
 
             <a href="https://grevenmedien.app.n8n.cloud/webhook/7610d874-ae00-4b50-804d-7d5e153de452/chat" class="tool-card plz-check" target="_blank">
                 <div class="card-image">
-                    Screenshot vom Tool inkl.<br>
-                    Verlinkung des Bildes und<br>
-                    der Text verlinkt auch zur<br>
-                    Anwendung
+                    <img src="images/plz-check.png" alt="PLZ Check Screenshot">
                 </div>
                 <div class="card-content">
                     <h2 class="card-title">PLZ Check</h2>

@@ -24,6 +24,6 @@
 - [x] Dateien für GitHub vorbereiten
 
 ## Phase 5: Ergebnisse an Benutzer liefern
-- [ ] Finale Dateien bereitstellen
-- [ ] Deployment-Anweisungen übermitteln
+- [x] Finale Dateien bereitstellen
+- [x] Deployment-Anweisungen übermitteln
 
